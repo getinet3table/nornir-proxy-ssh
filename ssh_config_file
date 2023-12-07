@@ -1,0 +1,15 @@
+Host jumpserver
+  PubkeyAcceptedKeyTypes=+ssh-rsa
+  IdentityFile ~/.ssh/id_rsa
+  IdentitiesOnly yes
+  StrictHostKeyChecking=no
+  User user
+  HostName host
+  HostKeyAlgorithms =+ssh-rsa
+
+Host * !jumpserver
+  ProxyJump enodlgbuc
+  User user
+  StrictHostKeyChecking=no
+  HostKeyAlgorithms=+ssh-rsa
+  PubkeyAcceptedKeyTypes +ssh-rsa
