@@ -1,0 +1,17 @@
+---
+
+logging:
+  enabled: False
+
+inventory:
+    plugin: SimpleInventory
+    options:
+        host_file: "/home/alin/Python/demo/Inventory/hosts.yaml"
+        group_file: "/home/alin/Python/demo/Inventory/groups.yaml"
+        defaults_file: "/home/alin/Python/demo/Inventory/defaults.yaml"
+
+
+runner:
+    plugin: threaded 
+    options:
+        num_workers: 10

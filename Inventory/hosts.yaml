@@ -1,0 +1,26 @@
+---
+dr1-ba0090:
+  groups:
+  - cisco_ios
+  hostname: dr1-ba0090
+  username: robot.csf
+dr1-ba0093:
+  groups:
+  - cisco_ios
+  hostname: dr1-ba0093
+  username: robot.csf
+dr1-ba0215:
+  groups:
+  - cisco_ios
+  hostname: dr1-ba0215
+  username: robot.csf
+dr1-ba0274:
+  groups:
+  - cisco_ios
+  hostname: dr1-ba0274
+  username: robot.csf
+dr1-ba0442:
+  groups:
+  - cisco_ios
+  hostname: dr1-ba0442
+  username: robot.csf
